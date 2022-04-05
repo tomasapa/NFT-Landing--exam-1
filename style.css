@@ -1,0 +1,394 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.project {
+  background-color: white;
+  height: 3300px;
+  margin: 0 auto;
+  width: 428px;
+}
+
+.navigation {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 1.1rem;
+}
+
+.hamburger_menu img {
+  height: 22px;
+  padding-bottom: 2px;
+  width: 24px;
+}
+
+.nav_menu {
+  display: none;
+}
+
+#pink {
+  color: #ff3998;
+}
+
+main {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  padding: 0 2rem;
+}
+
+.left-top {
+  color: #ff3998;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 3rem;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 701;
+  margin: 1.56rem 0;
+  word-spacing: -6px;
+}
+
+.left-bottom,
+.upsell-p {
+  font-size: 1.35rem;
+  color: rgb(93, 92, 92);
+  line-height: 1.8rem;
+}
+
+button {
+  background-color: white;
+  border: 4px solid orangered;
+  border-radius: 50px;
+  font-size: 21px;
+  font-weight: 600;
+  height: 75px;
+  margin: 1rem 0;
+  width: 188px;
+}
+
+.container-img img {
+  left: 220px;
+  position: absolute;
+  top: 72px;
+  width: 400px;
+}
+
+.upsell {
+  align-items: flex-end;
+  background-image: url(./assets/background.svg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 328px;
+  margin-top: 4em;
+}
+
+.input {
+  height: auto;
+  padding-top: 0;
+  width: 428px;
+}
+
+.input h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.input h2,
+.upsell-p {
+  padding: 0 2rem;
+}
+
+.upsell-p {
+  color: black;
+  padding-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+
+.companies {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding-bottom: 1rem;
+  display: grid;
+  width: 428px;
+}
+
+.item-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1.4rem;
+  grid-column-gap: 1rem;
+  grid-template-rows: auto;
+  margin-right: 2rem;
+  padding: 4rem 2rem 0 2rem;
+  width: 100%;
+}
+
+#boom {
+  background-image: url(./assets/companies/1.svg);
+  background-position-x: left;
+  background-repeat: no-repeat;
+  width: 70%;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+.showcase {
+  border-bottom: 2.5px solid #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0.5rem 0 5.5rem 0;
+}
+
+.case-item {
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 0 0.5rem 0rem 2rem;
+  width: 290px;
+}
+
+table {
+  padding: 1rem;
+  padding-left: 1.2rem;
+  width: 100%;
+  height: 100%;
+}
+
+th,
+tr:nth-child(1) {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: grey;
+}
+
+th,
+td:first-child {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th {
+  color: #ff8139;
+}
+
+tr:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+tr:last-child {
+  color: #777777;
+  font-size: 1.2rem;
+}
+
+#down {
+  width: 428px;
+  height: 630px;
+}
+
+#down .text-left {
+  width: 233px;
+  padding-right: 0;
+}
+
+.container-img-2 {
+  width: 207px;
+}
+
+.container-img-2 img {
+  bottom: 778px;
+  position: absolute;
+  right: -28px;
+  top: 2094px;
+}
+
+#down .h1 {
+  font-size: 56px;
+  line-height: 4.2rem;
+  padding: 0 0 0.4rem 0;
+}
+
+footer {
+  padding: 3.8rem 0;
+}
+
+footer > p {
+  font-weight: 350;
+}
+
+.social-networks img {
+  margin-right: 0.7rem;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  font-size: 1, 1rem;
+  color: #555555;
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+
+.company-info a,
+.nav_menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.bold {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.company-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+
+.copyright, #extra {
+  color: #999999;
+  padding: 3rem 0;
+}
+
+#extra {
+  display: none;
+}
+
+@media only screen and (min-width: 429px) {
+  body {
+    background-color: #eeeeee;
+    margin: 0 auto;
+  }
+
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    height: 3300px;
+    padding-top: 38px;
+    padding-left: 41px;
+    width: 1440px;
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  .nav_menu {
+    display: unset;
+    display: inline;
+    text-align: right;
+    width: 1200px;
+  }
+
+  .nav_menu a {
+    font-size: 1.2rem;
+    margin: 02rem;
+  }
+
+  .container,
+  .container-2 {
+    padding-top: 116px;
+    width: 560px;
+  }
+
+  .h1 {
+    font-size: 100px;
+  }
+
+  .container-img img {
+    left: 760px;
+    position: absolute;
+    top: 224px;
+    width: 740px;
+  }
+
+  .upsell {
+    height: 320px;
+    margin-left: 30px;
+    padding-right: 3.3rem;
+    margin-top:12rem ;
+    width: 1280px;
+    border-radius: 15px;
+  }
+
+  .upsell-p {
+    width: 1200px;
+  }
+
+  .input,
+  #down > .text-left {
+    width: 580px;
+  }
+
+  .item-block {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 0;
+    text-align: right;
+    width: 100%;
+  }
+
+  #boom,
+  .item {
+    width: 300px;
+  }
+
+  .container-img-2 img {
+    bottom: 700px;
+    height: 467px;
+    left: 1040px;
+    position: absolute;
+    top: 2395px;
+  }
+
+  #down {
+    height: 554px;
+    padding-top: 50px;
+  }
+
+ footer, .company-info  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+    width: 1380px;
+  }
+
+  .footer-left, .company-info  {
+    flex: 3;
+  }
+
+  #extra{    
+    display: unset;
+  }
+
+  .last {
+    display: flex;
+    justify-content: space-between;
+  }
+  )
